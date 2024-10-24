@@ -1,5 +1,11 @@
+import Webtoon from "./Webtoon";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Webtoon></Webtoon>
+    </>
+  );
 }
 
 export default App;
