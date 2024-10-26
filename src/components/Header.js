@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import imgLogo from "/거북이/webtoon/src/imgs/naver.jpg";
+import imgLogo from "./imgs/naver.jpg";
 import { Link } from "react-router-dom";
 
 const LogoWrap = styled.div`

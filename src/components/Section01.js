@@ -18,11 +18,10 @@ const ConWrap = styled.div`
 
 const Con = styled.div`
   width: 260px;
-  height: 400px;
+  height: 450px;
   margin-top: 20px;
   border-radius: 10px;
   background-color: lightgray;
-  overflow: hidden;
   color: #1d1d1d;
   img {
     width: 100%;
@@ -36,6 +35,13 @@ const Con = styled.div`
   }
 `;
 
+const ConImg = styled.div`
+  width: 260px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+`;
+
 const Section01 = () => {
   return (
     <Section>
@@ -43,12 +49,14 @@ const Section01 = () => {
       <ConWrap>
         <Link to="/sub/0">
           <Con>
-            <img
-              src="https://image-comic.pstatic.net/webtoon/641253/thumbnail/thumbnail_IMAG21_01672165-03c8-44b1-ba0e-ef82c9cfcd10.jpg"
-              alt="콘텐츠이미지"
-            />
-            <h4>작품1</h4>
-            <p>설명1</p>
+            <ConImg>
+              <img
+                src="https://i.namu.wiki/i/01YcfJDn3yWI_K-1oMGOIjhale9q2tompHU78Xqj58jYuGcAyqgLUfncMN0Dpn-PKzD3CU2I6yzKoOvsPyGbjQ.webp"
+                alt="콘텐츠이미지"
+              />
+            </ConImg>
+            <h4>삼봉이발소</h4>
+            <p>하일권</p>
           </Con>
         </Link>
         <Link to="/sub/1">
