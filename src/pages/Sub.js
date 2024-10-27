@@ -101,7 +101,7 @@ const TextWrap = styled.div`
   padding: 30px 34px;
   width: 600px;
   position: relative;
-  border-left: 2px solid black;
+  border-left: 1.5px solid #444;
 
   h1 {
     font-size: 30px;
@@ -109,20 +109,22 @@ const TextWrap = styled.div`
   }
   h2 {
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 600;
     margin: 50px 0;
   }
   p {
     font-size: 18px;
     margin-bottom: 20px;
+    line-height: 22px;
   }
   span {
     font-size: 14px;
     font-weight: 900;
-    background-color: #8c8988;
+    background-color: #999;
     border-radius: 4px;
     margin-right: 10px;
     color: #1d1d1d;
+    padding: 4px 10px;
   }
 `;
 

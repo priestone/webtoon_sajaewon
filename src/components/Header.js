@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const LogoWrap = styled.div`
   width: 100%;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 1.5px solid #444;
   display: flex;
   align-items: center;
   /* padding: 0 0 0 34px; */
@@ -15,7 +15,7 @@ const Logo = styled.div`
   height: 100px;
   overflow: hidden;
   position: relative;
-  margin-left: 34px;
+  margin-left: 36px;
   img {
     position: absolute;
     top: 30%;
@@ -32,7 +32,7 @@ const HeaderText = styled.div`
   font-weight: 500;
   width: 120px;
   height: 50px;
-  opacity: 0.3;
+  opacity: 0.7;
   margin-top: 20px;
 `;
 

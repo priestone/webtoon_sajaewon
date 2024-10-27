@@ -1,16 +1,18 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import TitleImg from "./imgs/TitleImg.png";
 
 const Section = styled.div`
   /* height: 300px; */
   padding: 30px;
   /* background-color: #bfa38a; */
-  border-bottom: 2px solid black;
-  h3 {
+  border-bottom: 1.5px solid #444;
+  .title {
     /* font-family: "궁서"; */
-    font-size: 24px;
-    font-weight: 900;
+    /* font-size: 24px;
+    font-weight: 900; */
     margin-left: 24px;
+    width: 14%;
   }
 `;
 
@@ -45,8 +47,9 @@ const ConImg = styled.div`
   width: 260px;
   height: 330px;
   overflow: hidden;
-  border: 1px solid #262626;
+  /* border: 1px solid #888; */
   /* border-radius: 10px; */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 `;
 
 const section = [
@@ -95,7 +98,7 @@ const section = [
 const Section01 = () => {
   return (
     <Section>
-      <h3>우수 작품</h3>
+      <img src={TitleImg} alt="우수작품" className="title" />
       <ConWrap>
         {section.map((webtoon) => (
           <Link to={webtoon.link}>
