@@ -11,6 +11,7 @@ const Wrap = styled.div`
   width: 100%;
   margin: 0 auto;
   border: 1px solid black;
+  background-color: #dbdbdb;
 `;
 const Webtoon = () => {
   return (

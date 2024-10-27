@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import imgLogo from "./imgs/naver.jpg";
+import imgLogo from "./imgs/weebtoon.png";
 import { Link } from "react-router-dom";
 
 const LogoWrap = styled.div`
@@ -7,6 +7,7 @@ const LogoWrap = styled.div`
   border-bottom: 2px solid rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
+  /* padding: 0 0 0 34px; */
 `;
 
 const Logo = styled.div`
@@ -14,6 +15,7 @@ const Logo = styled.div`
   height: 100px;
   overflow: hidden;
   position: relative;
+  margin-left: 34px;
   img {
     position: absolute;
     top: 30%;
