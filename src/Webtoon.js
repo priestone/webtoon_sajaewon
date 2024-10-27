@@ -12,6 +12,7 @@ const Wrap = styled.div`
   margin: 0 auto;
   border: 1px solid black;
   background-color: #dbdbdb;
+  font-family: "Black And White Picture", system-ui;
 `;
 const Webtoon = () => {
   return (

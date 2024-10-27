@@ -98,7 +98,7 @@ const ConImg = styled.div`
 `;
 
 const TextWrap = styled.div`
-  padding: 30px 10px;
+  padding: 30px 34px;
   width: 600px;
   position: relative;
   border-left: 2px solid black;
@@ -128,7 +128,7 @@ const TextWrap = styled.div`
 
 const MoreWrap = styled.div`
   position: absolute;
-  right: -10px;
+  right: -34px;
   bottom: 0;
   width: 100%;
   h3 {

@@ -2,9 +2,10 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Section = styled.div`
-  height: 708px;
+  /* height: 300px; */
   padding: 30px;
   /* background-color: #bfa38a; */
+  border-bottom: 2px solid black;
   h3 {
     /* font-family: "궁서"; */
     font-size: 24px;
