@@ -1,5 +1,7 @@
 const PageNotFound = () => {
-  return <div></div>;
+  return <div>
+    <h2>반갑다</h2>
+  </div>;
 };
 
 export default PageNotFound;
