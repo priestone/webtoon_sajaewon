@@ -82,12 +82,6 @@ const Wrap = styled.div`
   /* background-color: #bfa38a; */
 `;
 
-// const ConWrap = styled.div`
-//   width: 40%;
-//   padding: 30px 10px;
-//   overflow: hidden;
-// `;
-
 const ConImg = styled.div`
   width: 600px;
   overflow: hidden;
